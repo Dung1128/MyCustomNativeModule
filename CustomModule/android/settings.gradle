@@ -1,0 +1,5 @@
+rootProject.name = 'CustomModule'
+include ':react-native-my-custom-lib'
+project(':react-native-my-custom-lib').projectDir = new File(rootProject.projectDir, '../../MyCustomLib/android')
+
+include ':app'
