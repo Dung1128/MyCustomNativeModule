@@ -62,7 +62,9 @@ RNMyCustomLib.checkNumber(parseInt(this.state.val), data => console.log(data));
 ## Medthod
 
 1.  checkNumber
-    * type: callback - param: number
+
+* type: callback - param: number
+
 2.  getTimeStamp
 
 * type: promise
