@@ -34,13 +34,6 @@ export default class App extends Component<Props> {
   }
 
   componentDidMount() {}
-  getTimestamp = e => {
-    RNMyCustomLib.getTimeStamp()
-      .then(timestamp => {
-        this.setState({ timestamp });
-      })
-      .catch(e => alert('Can not get timestapm'));
-  };
 
   render() {
     return (
