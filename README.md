@@ -85,15 +85,9 @@ RNMyCustomLib.policy(this.state.ping)
     resolve(string) -- policy
     reject(Object) -- Error
 
-## Usage
+## Exemple
 
 ```javascript
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   Platform,
