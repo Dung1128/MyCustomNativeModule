@@ -63,10 +63,11 @@ RNMyCustomLib.checkNumber(parseInt(this.state.val), data => console.log(data));
 
 1.  checkNumber
 
-* type: callback - param: number
+    * type: callback - param: number
 
 2.  check policy
 
-* type: promise
-  resolve(string) -- policy
-  reject(Object) -- Error
+    * type: promise
+
+    resolve(string) -- policy
+    reject(Object) -- Error
