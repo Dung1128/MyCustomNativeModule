@@ -59,6 +59,19 @@ RNMyCustomLib;
 RNMyCustomLib.checkNumber(parseInt(this.state.val), data => console.log(data));
 ```
 
+```javascript
+// Function check policy
+RNMyCustomLib.policy(this.state.ping)
+  .then(data => {
+    console.log(data);
+    this.setState({ dataPolicy: data });
+  })
+  .catch(data => {
+    console.log(data);
+    this.setState({ dataPolicy: data });
+  });
+```
+
 ## Medthod
 
 1.  checkNumber
