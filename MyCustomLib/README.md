@@ -65,7 +65,7 @@ RNMyCustomLib.checkNumber(parseInt(this.state.val), data => console.log(data));
 
 * type: callback - param: number
 
-2.  getTimeStamp
+2.  check policy
 
 * type: promise
   resolve(string) -- policy
